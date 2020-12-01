@@ -34,4 +34,4 @@ var funkyFunction = function() {
 
 var outer = funkyFunction
 var inner = outer()
-var theFunk = next()
+var theFunk = inner()
